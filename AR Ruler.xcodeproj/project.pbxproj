@@ -13,6 +13,8 @@
 		302C71A42A1236AC004060D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302C71A22A1236AC004060D1 /* Main.storyboard */; };
 		302C71A62A1236AE004060D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302C71A52A1236AE004060D1 /* Assets.xcassets */; };
 		302C71A92A1236AE004060D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302C71A72A1236AE004060D1 /* LaunchScreen.storyboard */; };
+		302C71B12A123892004060D1 /* ship.scn in Resources */ = {isa = PBXBuildFile; fileRef = 302C71B02A123818004060D1 /* ship.scn */; };
+		302C71B22A123896004060D1 /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 302C71AF2A123818004060D1 /* texture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		302C71A32A1236AC004060D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		302C71A52A1236AE004060D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		302C71A82A1236AE004060D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302C71AF2A123818004060D1 /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		302C71B02A123818004060D1 /* ship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				302C719E2A1236AC004060D1 /* art.scnassets */,
 				302C71A02A1236AC004060D1 /* ViewController.swift */,
 				302C71A22A1236AC004060D1 /* Main.storyboard */,
+				302C71B02A123818004060D1 /* ship.scn */,
+				302C71AF2A123818004060D1 /* texture.png */,
 				302C71A52A1236AE004060D1 /* Assets.xcassets */,
 				302C71A72A1236AE004060D1 /* LaunchScreen.storyboard */,
 			);
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302C71B12A123892004060D1 /* ship.scn in Resources */,
 				302C719F2A1236AC004060D1 /* art.scnassets in Resources */,
 				302C71A92A1236AE004060D1 /* LaunchScreen.storyboard in Resources */,
+				302C71B22A123896004060D1 /* texture.png in Resources */,
 				302C71A62A1236AE004060D1 /* Assets.xcassets in Resources */,
 				302C71A42A1236AC004060D1 /* Main.storyboard in Resources */,
 			);
